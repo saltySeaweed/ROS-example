@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/rs_app.dir/main.cpp.o -o rs_app  -lrealsense2 -lglfw -lGL -lGLU -ldl -lpthread -lm -lX11 -lXrandr -lXi 

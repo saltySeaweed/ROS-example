@@ -9,7 +9,7 @@
 
 // 3rd party header for writing png files
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "stb_image_write.h"
+#include "rs-save-to-disk.h"
 
 // Helper function for writing metadata to disk as a csv file
 void metadata_to_csv(const rs2::frame& frm, const std::string& filename);

@@ -15,9 +15,9 @@
 #include <map>
 #include <functional>
 
-#include "stb_easy_font.h"
-#include "example-utils.hpp"
-#include "imgui_impl_glfw.h"
+#include "../third-party/stb_easy_font.h"
+#include "../third-party/example-utils.hpp"
+#include "../third-party/imgui_impl_glfw.h"
 
 #ifndef PI
 #define PI  3.14159265358979323846

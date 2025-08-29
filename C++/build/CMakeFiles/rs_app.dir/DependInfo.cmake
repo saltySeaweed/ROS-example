@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hippo/ROS_example/C++/main.cpp" "CMakeFiles/rs_app.dir/main.cpp.o" "gcc" "CMakeFiles/rs_app.dir/main.cpp.o.d"
+  "/home/hippo/ROS-example/C++/src/rs-depth.c" "CMakeFiles/rs_app.dir/src/rs-depth.c.o" "gcc" "CMakeFiles/rs_app.dir/src/rs-depth.c.o.d"
+  "/home/hippo/ROS-example/C++/main.cpp" "CMakeFiles/rs_app.dir/main.cpp.o" "gcc" "CMakeFiles/rs_app.dir/main.cpp.o.d"
+  "/home/hippo/ROS-example/C++/src/rs-capture.cpp" "CMakeFiles/rs_app.dir/src/rs-capture.cpp.o" "gcc" "CMakeFiles/rs_app.dir/src/rs-capture.cpp.o.d"
+  "/home/hippo/ROS-example/C++/src/rs-save-to-disk.cpp" "CMakeFiles/rs_app.dir/src/rs-save-to-disk.cpp.o" "gcc" "CMakeFiles/rs_app.dir/src/rs-save-to-disk.cpp.o.d"
   )
 
 # Targets to which this target links.

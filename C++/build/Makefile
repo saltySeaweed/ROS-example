@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hippo/ROS_example/C++
+CMAKE_SOURCE_DIR = /home/hippo/ROS-example/C++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hippo/ROS_example/C++/build
+CMAKE_BINARY_DIR = /home/hippo/ROS-example/C++/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hippo/ROS_example/C++/build/CMakeFiles /home/hippo/ROS_example/C++/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hippo/ROS-example/C++/build/CMakeFiles /home/hippo/ROS-example/C++/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hippo/ROS_example/C++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hippo/ROS-example/C++/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/rs-capture.o: src/rs-capture.cpp.o
+.PHONY : src/rs-capture.o
+
+# target to build an object file
+src/rs-capture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-capture.cpp.o
+.PHONY : src/rs-capture.cpp.o
+
+src/rs-capture.i: src/rs-capture.cpp.i
+.PHONY : src/rs-capture.i
+
+# target to preprocess a source file
+src/rs-capture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-capture.cpp.i
+.PHONY : src/rs-capture.cpp.i
+
+src/rs-capture.s: src/rs-capture.cpp.s
+.PHONY : src/rs-capture.s
+
+# target to generate assembly for a file
+src/rs-capture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-capture.cpp.s
+.PHONY : src/rs-capture.cpp.s
+
+src/rs-depth.o: src/rs-depth.c.o
+.PHONY : src/rs-depth.o
+
+# target to build an object file
+src/rs-depth.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-depth.c.o
+.PHONY : src/rs-depth.c.o
+
+src/rs-depth.i: src/rs-depth.c.i
+.PHONY : src/rs-depth.i
+
+# target to preprocess a source file
+src/rs-depth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-depth.c.i
+.PHONY : src/rs-depth.c.i
+
+src/rs-depth.s: src/rs-depth.c.s
+.PHONY : src/rs-depth.s
+
+# target to generate assembly for a file
+src/rs-depth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-depth.c.s
+.PHONY : src/rs-depth.c.s
+
+src/rs-save-to-disk.o: src/rs-save-to-disk.cpp.o
+.PHONY : src/rs-save-to-disk.o
+
+# target to build an object file
+src/rs-save-to-disk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-save-to-disk.cpp.o
+.PHONY : src/rs-save-to-disk.cpp.o
+
+src/rs-save-to-disk.i: src/rs-save-to-disk.cpp.i
+.PHONY : src/rs-save-to-disk.i
+
+# target to preprocess a source file
+src/rs-save-to-disk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-save-to-disk.cpp.i
+.PHONY : src/rs-save-to-disk.cpp.i
+
+src/rs-save-to-disk.s: src/rs-save-to-disk.cpp.s
+.PHONY : src/rs-save-to-disk.s
+
+# target to generate assembly for a file
+src/rs-save-to-disk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-save-to-disk.cpp.s
+.PHONY : src/rs-save-to-disk.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +237,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/rs-capture.o"
+	@echo "... src/rs-capture.i"
+	@echo "... src/rs-capture.s"
+	@echo "... src/rs-depth.o"
+	@echo "... src/rs-depth.i"
+	@echo "... src/rs-depth.s"
+	@echo "... src/rs-save-to-disk.o"
+	@echo "... src/rs-save-to-disk.i"
+	@echo "... src/rs-save-to-disk.s"
 .PHONY : help
 
 

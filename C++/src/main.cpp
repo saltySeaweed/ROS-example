@@ -322,7 +322,7 @@ int rs_save_to_disk() try
         {
             auto stream = frame.get_profile().stream_type();
             // Use the colorizer to get an rgb image for the depth stream
-            if (vf.is<rs2::depth_frame>()) vf = color_map.process(frame);
+            // if (vf.is<rs2::depth_frame>()) vf = color_map.process(frame);
 
             // Write images to disk
             std::stringstream png_file;

@@ -3,15 +3,7 @@ project(ROS_example)
 
 set(CMAKE_CXX_STANDARD 17)
 
-
-set(SOURCES
-    main.cpp
-    src/rs-capture.cpp
-    src/rs-save-to-disk.cpp
-    src/rs-depth.c        
-)
-
-add_executable(rs_app ${SOURCES})
+add_executable(rs_app src/main.cpp)
 
 target_include_directories(rs_app PRIVATE include)
 

@@ -322,7 +322,7 @@ static FILE *stbiw__fopen(char const *filename, char const *mode)
       f=0;
 #else
    char fullpath[1024];
-   snprintf(fullpath, sizeof(fullpath), "/home/hippo/ROS_example/C++/data/%s", filename);
+   snprintf(fullpath, sizeof(fullpath), "/home/hippo/ROS-example/C++/data/%s", filename);
    f = fopen(fullpath, mode);
 #endif
    return f;

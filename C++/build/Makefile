@@ -129,101 +129,29 @@ rs_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/build
 .PHONY : rs_app/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-src/rs-capture.o: src/rs-capture.cpp.o
-.PHONY : src/rs-capture.o
-
-# target to build an object file
-src/rs-capture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-capture.cpp.o
-.PHONY : src/rs-capture.cpp.o
-
-src/rs-capture.i: src/rs-capture.cpp.i
-.PHONY : src/rs-capture.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/rs-capture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-capture.cpp.i
-.PHONY : src/rs-capture.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/rs-capture.s: src/rs-capture.cpp.s
-.PHONY : src/rs-capture.s
-
-# target to generate assembly for a file
-src/rs-capture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-capture.cpp.s
-.PHONY : src/rs-capture.cpp.s
-
-src/rs-depth.o: src/rs-depth.c.o
-.PHONY : src/rs-depth.o
-
-# target to build an object file
-src/rs-depth.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-depth.c.o
-.PHONY : src/rs-depth.c.o
-
-src/rs-depth.i: src/rs-depth.c.i
-.PHONY : src/rs-depth.i
-
-# target to preprocess a source file
-src/rs-depth.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-depth.c.i
-.PHONY : src/rs-depth.c.i
-
-src/rs-depth.s: src/rs-depth.c.s
-.PHONY : src/rs-depth.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/rs-depth.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-depth.c.s
-.PHONY : src/rs-depth.c.s
-
-src/rs-save-to-disk.o: src/rs-save-to-disk.cpp.o
-.PHONY : src/rs-save-to-disk.o
-
-# target to build an object file
-src/rs-save-to-disk.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-save-to-disk.cpp.o
-.PHONY : src/rs-save-to-disk.cpp.o
-
-src/rs-save-to-disk.i: src/rs-save-to-disk.cpp.i
-.PHONY : src/rs-save-to-disk.i
-
-# target to preprocess a source file
-src/rs-save-to-disk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-save-to-disk.cpp.i
-.PHONY : src/rs-save-to-disk.cpp.i
-
-src/rs-save-to-disk.s: src/rs-save-to-disk.cpp.s
-.PHONY : src/rs-save-to-disk.s
-
-# target to generate assembly for a file
-src/rs-save-to-disk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/rs-save-to-disk.cpp.s
-.PHONY : src/rs-save-to-disk.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -234,18 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... rs_app"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... src/rs-capture.o"
-	@echo "... src/rs-capture.i"
-	@echo "... src/rs-capture.s"
-	@echo "... src/rs-depth.o"
-	@echo "... src/rs-depth.i"
-	@echo "... src/rs-depth.s"
-	@echo "... src/rs-save-to-disk.o"
-	@echo "... src/rs-save-to-disk.i"
-	@echo "... src/rs-save-to-disk.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

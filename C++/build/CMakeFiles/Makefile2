@@ -81,12 +81,12 @@ clean: CMakeFiles/rs_app.dir/clean
 CMakeFiles/rs_app.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rs_app.dir/build.make CMakeFiles/rs_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hippo/ROS-example/C++/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target rs_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hippo/ROS-example/C++/build/CMakeFiles --progress-num=1,2 "Built target rs_app"
 .PHONY : CMakeFiles/rs_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rs_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hippo/ROS-example/C++/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hippo/ROS-example/C++/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rs_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hippo/ROS-example/C++/build/CMakeFiles 0
 .PHONY : CMakeFiles/rs_app.dir/rule

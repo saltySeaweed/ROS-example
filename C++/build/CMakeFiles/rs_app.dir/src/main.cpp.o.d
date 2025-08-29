@@ -1,8 +1,8 @@
-CMakeFiles/rs_app.dir/src/rs-capture.cpp.o: \
- /home/hippo/ROS-example/C++/src/rs-capture.cpp \
- /usr/include/stdc-predef.h /usr/include/librealsense2/rs.hpp \
- /usr/include/librealsense2/rs.h /usr/include/librealsense2/rsutil.h \
- /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
+CMakeFiles/rs_app.dir/src/main.cpp.o: \
+ /home/hippo/ROS-example/C++/src/main.cpp /usr/include/stdc-predef.h \
+ /usr/include/librealsense2/rs.hpp /usr/include/librealsense2/rs.h \
+ /usr/include/librealsense2/rsutil.h /usr/include/c++/11/stdlib.h \
+ /usr/include/c++/11/cstdlib \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -269,4 +269,12 @@ CMakeFiles/rs_app.dir/src/rs-capture.cpp.o: \
  /home/hippo/ROS-example/C++/include/../third-party/imgui_impl_glfw.h \
  /home/hippo/ROS-example/C++/include/../third-party/imgui.h \
  /home/hippo/ROS-example/C++/include/../third-party/imconfig.h \
- /usr/include/assert.h
+ /usr/include/assert.h /usr/include/librealsense2/h/rs_pipeline.h \
+ /usr/include/librealsense2/h/rs_option.h \
+ /usr/include/librealsense2/h/rs_frame.h \
+ /home/hippo/ROS-example/C++/include/rs-depth.h \
+ /usr/include/librealsense2/rs.h /usr/include/c++/11/fstream \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc \
+ /home/hippo/ROS-example/C++/include/rs-save-to-disk.h
